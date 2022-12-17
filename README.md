@@ -1,0 +1,1 @@
+This repository contains capstone progect for ml-zoomcamp-2022 course.
