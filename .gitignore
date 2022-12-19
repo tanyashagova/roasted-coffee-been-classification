@@ -1,5 +1,3 @@
-#data
 data/
-
-# model checkpoints
 models/
+__pycache__
