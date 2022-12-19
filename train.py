@@ -179,7 +179,7 @@ def train_model():
     print(f'Test accuracy: {test_acc:.3f}')
 
     # Saving model #########################################################
-    model.save_weights(model_save_path)
+    model.save(model_save_path)
     print(f'model saved at {model_save_path}')
 
 
