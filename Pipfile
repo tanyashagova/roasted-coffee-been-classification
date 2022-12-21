@@ -6,11 +6,12 @@ name = "pypi"
 [packages]
 numpy = "*"
 pandas = "*"
-scikit-learn = "*"
+scikit-learn = "== 1.2.0"
 flask = "*"
-tensorflow = "*"
+tensorflow = "== 2.11.0"
 imagehash = "*"
 waitress = "*"
+notebook = "*"
 
 [dev-packages]
 
