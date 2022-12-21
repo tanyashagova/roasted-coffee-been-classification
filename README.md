@@ -55,3 +55,7 @@ After that you will see the following:
 ![Result_image](https://github.com/tanyashagova/roasted-coffee-been-classification/blob/main/screenshot.png)
 
 4. Try to change the image by adding another picture of coffee bean in test.py and see the model prediction.
+
+
+
+The next improvement is to convert the model into tflite format and try to get gid of tensorflow dependencies but use tensorflow-lite instead.
