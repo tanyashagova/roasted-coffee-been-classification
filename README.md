@@ -1,15 +1,14 @@
 This repository contains the capstone progect for ml-zoomcamp-2022 course.
 
-The aim of the project is to solve the task of coffee beans classification according to the raosting level. 
+The aim of the project is to solve the task of coffee beans classification according to the roasting level. The user of this project can upload the picture of single coffee been and the model will give the prediction of the level of roasting: green, light, middle or dark.
 
-This project uses [Cofedataset of employees attrition](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224). You can download the dataset directly from [Kaggle](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224) or from the [data folder] in the progect on GitHub.
+This project uses [Coffee Bean Dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224). You can download the dataset directly from [Kaggle](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224).
 
 
 ## Description
 
 Project folder contains
 
-* Data 
 * Notebook (`notebook.ipynb`) with data preparation, EDA, and model selection process
 * Script `train.py` which contains  training and saving the final model
 * File `model.h5` with final model
@@ -17,7 +16,9 @@ Project folder contains
 * `Pipenv` and `Pipenv.lock` files with dependencies
 * `Dockerfile` for running the service
 * Script `test.py` with test prediction for data of given person 
+* test image
 
+Data 
 
 ## Usage
 
@@ -47,10 +48,10 @@ docker build -t roast-coffee-bean .
 ```sh
 docker run --rm -it -p 9060:9060 -d  roast-coffee-bean
 ```
-3. Run test.py to see probabilities of the picture belonging to spesific class.
+3. Run test.py to see probabilities of which class the given coffee bean belongs to.
 
-After that you will see following:
+After that you will see the following:
 
-![Result_image](screen.png)
+![Result_image](https://github.com/tanyashagova/roasted-coffee-been-classification/blob/main/screenshot.png)
 
-4. Try to change different parameters in record from test.py and see attrition result.
+4. Try to change the image by adding another picture of coffee bean in test.py and see the model prediction.
