@@ -2,7 +2,7 @@ This repository contains the capstone progect for ml-zoomcamp-2022 course.
 
 The aim of the project is to solve the task of coffee beans classification according to the roasting level. The user of this project can upload the picture of single coffee been and the model will give the prediction of the level of roasting: green, light, middle or dark.
 
-This project uses [Coffee Bean Dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224). You can download the dataset directly from [Kaggle](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224).
+This project uses [Coffee Bean Dataset](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224). You can download the dataset directly from [Kaggle](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224) or from [google drive](https://drive.google.com/drive/folders/1TyfMcIDzLjV25HnoV0R4wyiv7HXcT84P?usp=sharing).
 
 
 ## Description
@@ -18,7 +18,7 @@ Project folder contains
 * Script `test.py` with test prediction for data of given person 
 * test image
 
-Data 
+Data is available at google drive and Kaggle (see links above)
 
 ## Usage
 
